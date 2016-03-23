@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C947596EC71A36A2B4C5889A7B384205C171047B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C947596EC71A36A2B4C5889A7B384205C171047B" : 0,
+    "4777B2AEAC4CA81B020A8911056B888C162ABC24" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F2334B28-64D3-42FE-91E7-04FB0BADD6B1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C947596EC71A36A2B4C5889A7B384205C171047B" : "Sunnyweather\/",
+    "4777B2AEAC4CA81B020A8911056B888C162ABC24" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SunnyWeather",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SunnyWeather\/SunnyWeather.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jciarallij\/iOS-Class.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4777B2AEAC4CA81B020A8911056B888C162ABC24"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jciarallij\/Sunnyweather.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C947596EC71A36A2B4C5889A7B384205C171047B"
+    }
+  ]
+}
