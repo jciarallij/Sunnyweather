@@ -13,6 +13,7 @@
 		1F6A88CF1CA206E300FD4019 /* SunnyWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A88CD1CA206E300FD4019 /* SunnyWeather.xcdatamodeld */; };
 		1F6A88D11CA206E300FD4019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A88D01CA206E300FD4019 /* Assets.xcassets */; };
 		1F6A88D41CA206E300FD4019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6A88D21CA206E300FD4019 /* LaunchScreen.storyboard */; };
+		1F6A88DC1CA2135700FD4019 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A88DB1CA2135700FD4019 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1F6A88D01CA206E300FD4019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F6A88D31CA206E300FD4019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F6A88D51CA206E300FD4019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6A88DB1CA2135700FD4019 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				1F6A88C61CA206E300FD4019 /* AppDelegate.swift */,
+				1F6A88DB1CA2135700FD4019 /* MainViewController.swift */,
 				1F6A88C81CA206E300FD4019 /* ViewController.swift */,
 				1F6A88CA1CA206E300FD4019 /* Main.storyboard */,
 				1F6A88D01CA206E300FD4019 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				1F6A88C91CA206E300FD4019 /* ViewController.swift in Sources */,
 				1F6A88CF1CA206E300FD4019 /* SunnyWeather.xcdatamodeld in Sources */,
 				1F6A88C71CA206E300FD4019 /* AppDelegate.swift in Sources */,
+				1F6A88DC1CA2135700FD4019 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
