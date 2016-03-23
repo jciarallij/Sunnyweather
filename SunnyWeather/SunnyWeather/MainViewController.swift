@@ -16,14 +16,28 @@ class MainViewController: UIViewController {
     
     @IBOutlet var todayLowLabel: UILabel!
     
-    @IBOutlet var todayDescription: UIImageView!
+    @IBOutlet var todayDescriptionLabel: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        initLabel()
+    
+    
     }
-
+    
+    func initLabel()
+    {
+        dayNameLabel.text = "Today, March 22"
+        dayNameLabel.textColor = UIColor.blackColor()
+        todayTempLabel.text = "200°" // Shift Option 8
+        todayLowLabel.text = "-27°"
+        todayDescriptionLabel.text = "Cloudy"
+        
+        
+        
+    }
     
     
 }

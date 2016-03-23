@@ -56,12 +56,20 @@
                                             <rect key="frame" x="171" y="287" width="58" height="26"/>
                                         </variation>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8ko-Lr-rTf">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="veu-kx-h1M">
+                                        <rect key="frame" x="172" y="27" width="240" height="240"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01d" translatesAutoresizingMaskIntoConstraints="NO" id="8ko-Lr-rTf">
+                                                <rect key="frame" x="20" y="20" width="200" height="200"/>
+                                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                                </variation>
+                                            </imageView>
+                                        </subviews>
+                                        <variation key="heightClass=regular-widthClass=compact" axis="vertical" fixedFrame="YES">
                                             <rect key="frame" x="192" y="47" width="200" height="200"/>
                                         </variation>
-                                    </imageView>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.40000000000000002" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="default">
@@ -70,7 +78,6 @@
                                         <exclude reference="heA-K4-2xx"/>
                                         <exclude reference="HuS-oN-D4Q"/>
                                         <exclude reference="I0h-2T-Awr"/>
-                                        <exclude reference="8ko-Lr-rTf"/>
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -80,7 +87,6 @@
                                         <include reference="heA-K4-2xx"/>
                                         <include reference="HuS-oN-D4Q"/>
                                         <include reference="I0h-2T-Awr"/>
-                                        <include reference="8ko-Lr-rTf"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -91,6 +97,7 @@
                     <connections>
                         <outlet property="dayNameLabel" destination="HuS-oN-D4Q" id="aXS-ii-ftg"/>
                         <outlet property="todayDescription" destination="8ko-Lr-rTf" id="tnG-cu-Vzy"/>
+                        <outlet property="todayDescriptionLabel" destination="I0h-2T-Awr" id="TMs-wT-Tna"/>
                         <outlet property="todayLowLabel" destination="heA-K4-2xx" id="CA9-Lb-9q6"/>
                         <outlet property="todayTempLabel" destination="KnW-4L-Vwj" id="aZC-ry-cyk"/>
                     </connections>
@@ -100,4 +107,7 @@
             <point key="canvasLocation" x="804" y="489.75"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="01d" width="200" height="200"/>
+    </resources>
 </document>
